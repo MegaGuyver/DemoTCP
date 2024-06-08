@@ -12,10 +12,6 @@ class UILoaderManager {
     static let shared = UILoaderManager()
     
     private init() {
-        ProgressHUD.colorHUD = .white
-        ProgressHUD.colorAnimation = ColorManager.theme.value
-        ProgressHUD.colorBannerMessage = ColorManager.theme.value
-        ProgressHUD.colorBannerTitle = ColorManager.theme.value
     }
     
     func showLoader(text: String? = nil) {
